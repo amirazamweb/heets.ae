@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="https://heets.ae/assets/images/favicon.png?48b97f30">
+    <link rel="stylesheet" href="../../Header/header.css">
+    <link rel="stylesheet" href="../../Footer/footer.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <div id="header"></div>
+
+    <!-- container -->
+
+    <div id="container">
+        <div class="container-col-1">
+            <h1>Checkout</h1>
+            <p>CUSTOMER INFORMATION____________________</p>
+            <label for="name">Full Name*</label>
+            <input type="text" id="name"><br><br>
+            <label for="phone">Phone*</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="phone"><br><br>
+            <label for="email">Email*</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email"><br><br>
+            <p>SHIP TO___________________________________</p>
+            <div style="margin-bottom: 1.8rem;">Country <span class="static-info">United Arab Emirates</span></div>
+            <label for="emirates">Emirate*</label>
+            <select name="emirates" id="emirates">
+                <option value="" disabled selected>Select option</option>
+                <option value="abu dhabi">Abu Dhabi</option>
+                <option value="ajman">Ajman</option>
+                <option value="dubai">Dubai</option>
+                <option value="fujairah">Fujairah</option>
+                <option value="rak">Ras Al Khaimah</option>
+                <option value="sharjah">Sharjah</option>
+                <option value="umm al quwain">Umm Al Quwain</option>
+            </select><br><br>
+            <div id="textarea-div"><label for="address">Address*</label>
+                <textarea name="" id="address" cols="30" rows="10"></textarea>
+            </div>
+
+            <p>PAYMENT__________________________________</p>
+
+            <div style="margin-bottom: 1.8rem;">Payment* <span class="static-info" style="margin-left: 5.5rem;">Cash on
+                    Delivery (COD)</span></div>
+
+
+            <div id="check-order-btn">
+                <input type="checkbox" value="checked">
+                <span>I have read and agreed to the <a href="#">delivery information</a>.</span>
+                <button onclick="dispatchOrder()">Send an Order</button>
+            </div>
+
+            <div id="vaidation-alert">All input field are required!</div>
+
+        </div>
+
+        <div class="container-col-2">
+            <h1>Total</h1>
+            <div id="order-details-container"></div>
+            <div id="subtotal-div">
+                <hr>
+                <p>SUBTOTAL <span class="subtotal-div-price">AED <span id="total-order">0</span></span></p>
+                <p>DELIVERY <span class="subtotal-div-price">AED <span id="delivery-charge">0</span></span></p>
+                <small>Free delivery over AED 200 order</small>
+                <hr>
+                <p>TOTAL <span class="subtotal-div-price">AED <span id="order-sum">0</span></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- product succesffuly ordered -->
+
+    <div id="successful-ordered">
+        <h1>Checkout</h1>
+        <div>
+            <div><i class="fa-solid fa-check"></i></div>
+            <p id="p1">Your order is received</p>
+            <p id="p2">Order number: <span>20289</span></p>
+            <button><a href="/">Shopping Again</a></button>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+</body>
+
+</html>
+<script src="checkout.js"></script>
+<script type="module">
+    import header from '../../Header/header.js';
+    import footer from '../../Footer/footer.js';
+
+    document.getElementById("header").innerHTML = header();
+    document.getElementById("footer").innerHTML = footer();
+
+    document.querySelector('.cart').addEventListener('click', () => {
+        location.href = '../Cart/cart.html';
+    })
+
+
+</script>

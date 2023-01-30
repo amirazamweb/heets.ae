@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* default message */
+
+.default-message {
+    margin: 1.5rem 0;
+    display: none;
+}
+
+.default-message a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.default-message button {
+    padding: 0.6rem;
+    margin-top: 1rem;
+    border-style: none;
+    background-color: #298a91;
+    border-radius: 0.2rem;
+}
+
+/* product order */
+
+#product-order-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.product-order-details {
+    margin: 2rem auto;
+    width: 90%;
+    color: #62615f;
+    display: none;
+}
+
+.product-order-details table {
+    width: 100%;
+    text-align: left;
+}
+
+.product-order-details table img {
+    width: 75%;
+}
+
+.product-order-details th {
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+
+.product-order-details td {
+    border-bottom: 1px solid #62615f;
+    padding: 0.8rem 0;
+}
+
+.product-order-details table button {
+    padding: 0.7rem 1rem;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 0.15rem solid #62615f;
+    border-radius: 0.4rem;
+    color: #62615f;
+}
+
+.product-order-details table .count {
+    margin: 0 1rem;
+}
+
+.product-order-details table button:hover {
+    background-color: #298a91;
+    border-color: #298a91;
+    color: white;
+    cursor: pointer;
+}
+
+.product-order-details table .price {
+    color: #298a91;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.product-order-details table .fa-regular:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* total order price */
+
+.total-order-price {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.total-order-price span {
+    color: #298a91;
+}
+
+/* button container */
+
+.btn-container {
+    margin: 1.8rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.btn-container a {
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+}
+
+.btn {
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.continue-shopping {
+    border: 2px solid #62615f;
+}
+
+.continue-shopping a {
+    color: #62615f;
+}
+
+.continue-shopping:hover {
+    background-color: #298a91;
+    border: 2px solid #298a91;
+}
+
+.continue-shopping:hover a {
+    color: #ffffff;
+}
+
+.proceed-checkout {
+    border: 2px solid #298a91;
+    background-color: #298a91;
+}
+
+.proceed-checkout a {
+    color: #ffffff;
+}
+
+/* maenu-cart btn */
+
+.cart button {
+    cursor: pointer;
+}

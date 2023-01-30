@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#container {
+    display: flex;
+    padding: 2rem 5rem;
+    color: #62615f;
+}
+
+.container-col-1 {
+    width: 60%;
+}
+
+.container-col-1 h1 {
+    color: #1d293f;
+    margin-bottom: 2.4rem;
+}
+
+.container-col-1 p {
+    color: #298a91;
+    margin: 1.7rem 0;
+}
+
+.container-col-1 input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 0.9rem;
+    border-radius: 0.3rem;
+    border: 1px solid #62615f;
+    width: 50%;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
+.container-col-1 input:focus {
+    border-color: #298a91;
+    outline: none;
+}
+
+
+.static-info {
+    color: #298a91;
+    margin-left: 6rem;
+
+}
+
+#emirates {
+    margin-left: 5.6rem;
+    padding: 0.9rem;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    border: 1px solid #62615f;
+}
+
+#emirates:focus {
+    border-color: #298a91;
+    outline: none;
+}
+
+
+#textarea-div {
+    display: flex;
+    align-items: center;
+}
+
+#textarea-div textarea {
+    padding: 0.9rem;
+    margin-left: 5.6rem;
+    width: 50%;
+    height: 6rem;
+    border-radius: 0.3rem;
+    border: 1px solid #62615f;
+    box-sizing: border-box;
+    resize: none;
+
+}
+
+#textarea-div textarea:focus {
+    border-color: #298a91;
+    outline: none;
+}
+
+#check-order-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+#check-order-btn input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#check-order-btn span {
+    margin: 0 1rem;
+}
+
+#check-order-btn span a {
+    color: #298a91;
+}
+
+#check-order-btn button {
+    padding: 0.9rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 1px solid #298a91;
+    background-color: #298a91;
+    color: #ffffff;
+    margin-left: 1.7rem;
+    cursor: pointer;
+}
+
+#check-order-btn button:hover {
+    background-color: #42989e;
+}
+
+
+#vaidation-alert {
+    width: 50%;
+    font-size: 0.7rem;
+    color: red;
+    display: none;
+}
+
+
+.container-col-2 {
+    width: 40%;
+    background-color: #ecf0f1;
+    padding: 0 3rem;
+    box-sizing: border-box;
+}
+
+
+.container-col-2 hr {
+    margin: 1rem 0;
+}
+
+/* col-2 */
+
+.container-col-2 h1 {
+    margin-bottom: 1rem;
+    color: #1d293f;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#order-details-container>div {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#order-details-container>div .img-div {
+    width: 23%;
+}
+
+#order-details-container>div .img-div img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#order-details-container>div .order-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+    width: 77%;
+}
+
+#order-details-container>div .order-info .product-name {
+    margin-bottom: 0.7rem;
+}
+
+#order-details-container>div .order-info span {
+    font-size: 1.1rem;
+}
+
+#order-details-container>div .order-info .price-span {
+    font-weight: bold;
+    color: #298a91;
+}
+
+#order-details-container>div .order-info .qty-span {
+    float: right;
+    margin-right: 3rem;
+}
+
+#subtotal-div p {
+    margin-bottom: 1rem;
+}
+
+.subtotal-div-price {
+    float: right;
+    color: #298a91;
+    font-weight: bold;
+}
+
+/* prodct sucessfully ordered */
+
+#successful-ordered {
+    padding: 2rem 5rem;
+    color: #62615f;
+    display: none;
+
+}
+
+#successful-ordered h1 {
+    color: #1d293f;
+}
+
+#successful-ordered>div {
+    width: max-content;
+    margin: 15vh auto;
+    text-align: center;
+
+}
+
+#successful-ordered .fa-solid {
+    border: 3px solid #19b119;
+    padding: 0.8rem;
+    border-radius: 50%;
+    color: #19b119;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+#successful-ordered p {
+    letter-spacing: 0.03rem;
+}
+
+#successful-ordered #p1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#successful-ordered button a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0.3rem;
+    font-size: 0.7rem;
+}
+
+#successful-ordered button {
+    background-color: #298a91;
+    padding: 0.3rem 0;
+    border-color: #298a91;
+    border-style: solid;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+}
+
+/* cart menu btn hover */
+
+.cart>button {
+    cursor: pointer;
+    background-color: red;
+}

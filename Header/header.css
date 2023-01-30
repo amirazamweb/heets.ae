@@ -1,0 +1,73 @@
+/* header row 1 */
+
+.header-container {
+    margin-top: 1.2rem;
+}
+
+.header-row1 {
+    display: flex;
+    padding: 0 6.5%;
+
+}
+
+.header-row1 .logo {
+    width: 30%;
+}
+
+.header-row1 .logo img {
+    width: 55%;
+    margin: auto;
+}
+
+.address-email-cart {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.address-email {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.address-email .fa-solid,
+.fa-regular {
+    color: #298A91;
+    margin-right: 0.6rem;
+    font-size: 1.3rem;
+}
+
+.address-email-cart .cart button {
+    color: white;
+    background-color: #298A91;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+
+/* header row 2 */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: #1d293f;
+    line-height: 3.2rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+}
+
+.menu a:hover {
+    color: #68b8c1;
+}

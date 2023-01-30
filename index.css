@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.carosal {
+    width: 100%;
+    position: relative;
+}
+
+.carosal-item {
+    display: none;
+}
+
+.carosal-item img {
+    width: 100%;
+}
+
+.move {
+    font-size: 4rem;
+    color: #b2bec3;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.backward {
+    left: 2rem;
+}
+
+.forward {
+    right: 2rem;
+}
+
+/* section */
+
+.section {
+    display: flex;
+    padding: 3rem 5rem;
+    box-sizing: border-box;
+}
+
+.section-child-1 {
+    width: 60%;
+    padding: 0 2rem;
+    letter-spacing: 0.01rem;
+}
+
+.section-child-1 h1 {
+    font-size: 36px;
+    color: #1d293f;
+    margin-bottom: 0.8rem;
+    line-height: 3.4rem;
+}
+
+.section-child-1 p {
+    font-size: 1rem;
+    color: #62615f;
+    line-height: 1.4rem;
+}
+
+.section-child-1 p a {
+    text-decoration: none;
+}
+
+.section-child-2 {
+    width: 40%;
+}
+
+.section-child-2 img {
+    border-radius: 1rem;
+    width: 88%;
+    float: right;
+}
+
+/* product */
+
+.products {
+    padding: 2rem 6rem;
+    background-color: #f1f2f6;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.products>h1 {
+    margin-bottom: 3rem;
+    color: #1d293f;
+}
+
+.product-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.product-item {
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product-item:hover {
+    box-shadow: 0 0 2rem #acacac;
+    transform: translateY(-0.3rem);
+    transition: all 0.4s;
+}
+
+.product-item img {
+    height: 12rem;
+    width: auto;
+}
+
+.product-item .title {
+    color: #1d293f;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.product-item .price {
+    color: #298a91;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.product-item .button-collection {
+    margin-bottom: 1.5rem;
+}
+
+.product-item .button-collection button {
+    padding: 0.7rem 1rem;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 0.15rem solid #62615f;
+    border-radius: 0.4rem;
+    color: #62615f;
+}
+
+.product-item .button-collection button:hover {
+    background-color: #298a91;
+    border-color: #298a91;
+    color: white;
+    cursor: pointer;
+}
+
+.product-item .button-collection span {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #62615f;
+}
+
+.product-item .fa-star {
+    color: #eccc68;
+}
+
+.product-item .taste {
+    margin: 1rem 0;
+    color: #62615f;
+}
+
+/* what is iqos */
+
+.whats-is-iqos {
+    display: flex;
+    padding: 4rem 6rem 1rem 6rem;
+}
+
+.whats-is-iqos h1 {
+    color: #1d293f;
+    margin-bottom: 2rem;
+}
+
+.whats-is-iqos p {
+    color: #62615f;
+    letter-spacing: 0.009rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.whats-is-iqos-col-1 {
+    width: 55%;
+}
+
+.whats-is-iqos-col-2 {
+    width: 45%;
+}
+
+.whats-is-iqos-col-2 img {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+/* benefit of iqos */
+
+.iqos-benefit {
+    text-align: center;
+    background-color: #1d293f;
+    padding: 3rem 0;
+    color: #ffffff;
+}
+
+.iqos-benefit-item-container {
+    padding: 3rem 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.iqos-benefit-item-container>div {
+    padding: 0 1rem;
+}
+
+.iqos-benefit-item-container h6 {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.iqos-benefit-item-container p {
+    color: #b4c0d4;
+    letter-spacing: 0.01rem;
+    line-height: 1.5rem;
+}
+
+.iqos-benefit-item-container .fa-solid {
+    border: 1px solid #298a91;
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: #298a91;
+}
+
+/* f A Q */
+
+.faq {
+    margin: 3rem 0;
+    color: #1d293f;
+}
+
+.faq>h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.faq>div {
+    width: 60%;
+    margin: auto;
+}
+
+
+/* order popup */
+
+.order-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 30%;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px #525050;
+    visibility: hidden;
+}
+
+.order-popup .order-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order-info .popup-col-1 {
+    width: 30%;
+}
+
+.order-info .popup-col-1 img {
+    width: 100%;
+}
+
+.order-info .popup-col-2 {
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 1.4rem;
+}
+
+.order-info .popup-col-2 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #62615f;
+}
+
+.order-info .popup-col-2 .price-qty {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-info .popup-col-2 #price {
+    color: #298a91;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.order-info .popup-col-2 #qty {
+    color: #62615f;
+    ;
+}
+
+.order-popup #successful-msg {
+    margin: 2rem 0;
+    color: #298a91;
+    letter-spacing: 0.02rem;
+}
+
+.order-popup #successful-msg .fa-check {
+    border: 1px solid #298a91;
+    border-radius: 50%;
+    padding: 0.2rem;
+    color: white;
+    background-color: #298a91;
+}
+
+.order-popup .btn-container .btn {
+    padding: 0.7rem 1.8rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.order-popup .btn-container .back-to-page {
+    color: #62615f;
+    border: 2px solid #62615f;
+}
+
+.order-popup .btn-container .back-to-page:hover {
+    background-color: #298a91;
+    border-color: #298a91;
+    color: white;
+}
+
+.order-popup .btn-container .view-cart a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.order-popup .btn-container .view-cart {
+    border: 2px solid #298a91;
+    background-color: #298a91;
+    float: right;
+}
+
+.order-popup .btn-container .view-cart:hover {
+    background-color: #3cacb4;
+    border-color: #3cacb4;
+}
+
+.order-popup #close-popup {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #62615f;
+    cursor: pointer;
+}

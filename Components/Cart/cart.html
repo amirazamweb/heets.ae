@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="https://heets.ae/assets/images/favicon.png?48b97f30">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../../Header/header.css">
+    <link rel="stylesheet" href="../../Footer/footer.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- order list details-->
+
+    <div id="product-order-container">
+        <h1>Shopping Cart</h1>
+
+        <div class="default-message">
+            <p>Yout cart is empty !</p>
+            <button><a href="/">Back to Shopping</a></button>
+
+        </div>
+
+        <div class="product-order-details">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" style="width: 33%;">Product</th>
+                        <th>Price</th>
+                        <th style="width: 25%;">Quantity</th>
+                        <th>Total</th>
+                        <th style="width: 7%;">Delete</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <!-- total order price start-->
+
+            <div class="total-order-price">
+                SUBTOTAL: &nbsp;<span>AED</span> <span id="subtotal"></span>
+            </div>
+            <!-- total order price end -->
+
+            <!-- button container start-->
+            <div class="btn-container">
+                <button class="btn continue-shopping"><a href="/"><i class="fa-solid fa-less-than"></i> Continue
+                        Shopping</a></button>
+                <button class="btn proceed-checkout"><a href="../Checkout/checkout.html">Proceed to
+                        Checkout</a></button>
+            </div>
+            <!-- button container end-->
+
+        </div>
+    </div>
+
+
+
+    <!--footer  -->
+
+    <div id="footer"></div>
+
+</body>
+<script src="cart.js"></script>
+<script type="module">
+
+    import header from '../../Header/header.js';
+    import footer from '../../Footer/footer.js';
+
+    document.getElementById('header').innerHTML = header();
+    document.getElementById('footer').innerHTML = footer();
+
+    document.querySelector('.cart').addEventListener('click', () => {
+        location.reload(true);
+    })
+
+</script>
+
+</html>
