@@ -409,10 +409,12 @@ body {
     }
 
     .products {
-        padding: 1rem;
-        background-color: #f1f2f6;
-        text-align: center;
-        box-sizing: border-box;
+        padding: 0 1rem;
+    }
+
+    .products>h1 {
+        margin-top: 6rem;
+        background-color: red;
     }
 
     .product-item-container {
