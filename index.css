@@ -391,32 +391,26 @@ body {
 
     .section-child-1 h1 {
         font-size: 25px;
-        /* color: #1d293f; */
-        margin-bottom: 0.8rem;
-        /* line-height: 3.4rem; */
         text-align: center;
     }
 
-    /*
     .section-child-1 p {
-        font-size: 1rem;
-        color: #62615f;
-        line-height: 1.4rem;
+        line-height: 1.8rem;
+        text-align: justify;
     }
-    
-    .section-child-1 p a {
-        text-decoration: none;
-    }
-    
+
     .section-child-2 {
-        width: 40%;
+        width: 90%;
+        margin: auto;
     }
-    
+
     .section-child-2 img {
-        border-radius: 1rem;
-        width: 88%;
-        float: right;
-    } */
+        width: 100%;
+    }
+
+    #footer {
+        display: none;
+    }
 
     .product-item-container {
         grid-template-columns: repeat(1, 1fr);
