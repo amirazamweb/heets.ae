@@ -390,7 +390,7 @@ body {
     }
 
     .section-child-1 h1 {
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
     }
 
@@ -400,7 +400,7 @@ body {
     }
 
     .section-child-2 {
-        width: 90%;
+        width: 85%;
         margin: auto;
     }
 
@@ -408,11 +408,22 @@ body {
         width: 100%;
     }
 
-    #footer {
-        display: none;
+    .products {
+        padding: 1rem;
+        background-color: #f1f2f6;
+        text-align: center;
+        box-sizing: border-box;
     }
 
     .product-item-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .iqos-benefit {
+        display: none;
     }
 }
