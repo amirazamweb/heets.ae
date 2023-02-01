@@ -424,14 +424,10 @@ body {
     }
 
     .whats-is-iqos h1 {
-        /* margin-bottom: 2rem; */
+        text-align: center;
     }
 
     .whats-is-iqos p {
-        /* color: #62615f;
-        letter-spacing: 0.009rem;
-        line-height: 1.4rem;
-        margin-bottom: 1.5rem; */
         text-align: justify;
     }
 
