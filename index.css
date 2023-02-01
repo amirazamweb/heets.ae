@@ -448,6 +448,22 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .faq {
+        margin: 3rem 0;
+        color: #1d293f;
+        padding: 0 1rem;
+    }
+
+    .faq>h1 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .faq>div {
+        width: 100%;
+        margin: auto;
+    }
+
     #footer {
         display: none;
     }
