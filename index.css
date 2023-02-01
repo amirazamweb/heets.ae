@@ -7,6 +7,8 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* carosal */
+
 .carosal {
     width: 100%;
     position: relative;
@@ -369,4 +371,54 @@ body {
     right: 1rem;
     color: #62615f;
     cursor: pointer;
+}
+
+/* media query */
+
+@media only screen and (max-width: 480px) {
+    #header {
+        display: none;
+    }
+
+    .section {
+        display: block;
+        padding: 1rem;
+    }
+
+    .section-child-1 {
+        width: 100%;
+    }
+
+    .section-child-1 h1 {
+        font-size: 25px;
+        /* color: #1d293f; */
+        margin-bottom: 0.8rem;
+        /* line-height: 3.4rem; */
+        text-align: center;
+    }
+
+    /*
+    .section-child-1 p {
+        font-size: 1rem;
+        color: #62615f;
+        line-height: 1.4rem;
+    }
+    
+    .section-child-1 p a {
+        text-decoration: none;
+    }
+    
+    .section-child-2 {
+        width: 40%;
+    }
+    
+    .section-child-2 img {
+        border-radius: 1rem;
+        width: 88%;
+        float: right;
+    } */
+
+    .product-item-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
