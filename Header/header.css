@@ -83,4 +83,34 @@
         font-size: 0.5rem;
         letter-spacing: 0.01rem;
     }
+
+    .header-row1 {
+        justify-content: space-around;
+
+    }
+
+    .header-row1 .logo {
+        width: 50%;
+    }
+
+    .header-row1 .logo img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .address-email-cart {
+        width: 50%;
+    }
+
+    .address-email {
+        display: none;
+    }
+
+    .address-email-cart .cart button {
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+        letter-spacing: 0.02rem;
+    }
 }
