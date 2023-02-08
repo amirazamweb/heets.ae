@@ -375,9 +375,6 @@ body {
 /* media query */
 
 @media only screen and (max-width: 480px) {
-    #header {
-        display: none;
-    }
 
     .section {
         display: block;

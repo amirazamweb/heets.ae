@@ -1,5 +1,4 @@
 let setLocalStorage = JSON.parse(localStorage.getItem("orderKey"));
-console.log(setLocalStorage);
 let inputData1 = document.querySelectorAll('input[type= "text"]');
 let inputData2 = document.querySelectorAll('input[type= "number"]');
 let inputData3 = document.querySelectorAll('input[type= "email"]');
