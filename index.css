@@ -464,7 +464,12 @@ body {
         margin: auto;
     }
 
+    .order-popup {
+        width: 90%;
+    }
+
     #footer {
         display: none;
     }
+
 }

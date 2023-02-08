@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#small-device-footer {
+    padding: 1rem 1.5rem;
+    background-color: #1d293f;
+}
+
+.accordion {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #1d293f;
+}
+
+.accordion-item {
+    color: #798087;
+    margin: 0.1rem 0;
+    border: 1px solid rgb(68, 63, 63);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.accordion-item-header {
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    font-size: 0.9rem;
+    color: #ecf0f1;
+    padding: 1rem 0;
+}
+
+.accordion-item-body-content ul {
+    list-style: none;
+}
+
+.accordion-item-body-content ul li {
+    margin-bottom: 0.8rem;
+}
+
+.accordion-item-body-content a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+#logo img {
+    width: 35%;
+    margin: 1rem 0;
+}
+
+#logo p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+#logo small {
+    font-size: 0.7rem;
+    color: #798087;
+}
+
+#footer-disclaimer {
+    background-color: #111825;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: #798087;
+}
+
+#footer-disclaimer p {
+    font-size: 0.7rem;
+    margin: 0.3rem 0;
+}
+
+
+/* @media(max-width:767px) {
+    html {
+        font-size: 14px;
+    }
+} */
