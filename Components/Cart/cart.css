@@ -183,10 +183,14 @@ body {
     }
 
     .product-order-details table button {
-        padding: 0.5rem;
+        padding: 0.6rem;
         font-size: 0.9rem;
-        border: 0.10rem solid #62615f;
+        border: 0.05rem solid #62615f;
         border-radius: 0.2rem;
+    }
+
+    .product-order-details table .count {
+        margin: 0 0.4rem;
     }
 
     .product-order-details table .price {
@@ -208,10 +212,6 @@ body {
         font-size: 0.7rem;
         font-weight: bold;
         border-radius: 0.3rem;
-    }
-
-    .continue-shopping {
-        border: 2px solid #62615f;
     }
 
     #footer {
