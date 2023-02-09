@@ -341,7 +341,7 @@ input[type="number"] {
     }
 
     #successful-ordered>div {
-        margin: 2vh auto;
+        margin: 0.5vh auto;
     }
 
     #successful-ordered h1 {
