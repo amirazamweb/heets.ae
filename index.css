@@ -372,6 +372,12 @@ body {
     cursor: pointer;
 }
 
+/* hr */
+
+/* hr {
+    color: #ffffff;
+} */
+
 /* media query */
 
 @media only screen and (max-width: 480px) {
@@ -495,6 +501,5 @@ body {
         right: 0.6rem;
         font-size: 0.8rem;
     }
-
 
 }
