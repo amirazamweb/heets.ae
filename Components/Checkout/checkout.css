@@ -317,4 +317,15 @@ input[type="number"] {
         border-radius: 0.2rem;
     }
 
+    #check-order-btn span {
+        margin-right: 0.3rem;
+    }
+
+    #check-order-btn button {
+        padding: 0.3rem;
+        font-size: 0.6rem;
+        border-radius: 0.2rem;
+        margin-left: 0.7rem;
+    }
+
 }
