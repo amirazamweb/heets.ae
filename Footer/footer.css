@@ -90,7 +90,15 @@
     }
 
     .footer {
-        padding: 3rem 1rem 0 2rem;
+        padding: 2rem 1rem 0 1rem;
         font-size: 0.7rem;
+    }
+
+    .footer .useful-link #footer-logo {
+        width: 20%;
+    }
+
+    .footer .useful-link #footer-logo p {
+        line-height: 1rem;
     }
 }

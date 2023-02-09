@@ -29,7 +29,7 @@ function footer() {
             <p class="useful-link-title">Contacts</p>
             <p class= "footer-non-link">Email</p>
             <p class= "footer-non-link">sales@heets.ae</p>
-            <p class= "footer-non-link">Al Quoz 2, Dubai, United Arab</p>
+            <p class= "footer-non-link">Al Quoz 2, Dubai</p>
             <p class= "footer-non-link">Emirates</p>
         </div>
     </div>
