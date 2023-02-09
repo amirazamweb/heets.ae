@@ -182,6 +182,10 @@ body {
         width: 4%;
     }
 
+    .product-order-details table #product-name {
+        font-size: 0.8rem;
+    }
+
     .product-order-details table button {
         padding: 0.6rem;
         font-size: 0.9rem;

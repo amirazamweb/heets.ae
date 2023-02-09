@@ -15,7 +15,7 @@ else {
         let tr = document.createElement('tr');
 
         let tableRowData = `<td style="width: 8%;"><img src=${e.url}></td>
-          <td>${e.title}</td>
+          <td id="product-name">${e.title}</td>
           <td class="price">AED <span>${e.price}</span></td>
           <td><button class="decrease-count">-</button> <span class="count" id= "${i}">${e.orderCount}</span> <button
                   class="increase-count">+</button></td>
