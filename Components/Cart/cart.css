@@ -160,6 +160,15 @@ body {
 /* media query */
 
 @media only screen and (max-width: 480px) {
+
+    #product-order-container {
+        margin-top: 1.5rem;
+    }
+
+    #product-order-container h1 {
+        font-size: 1.5rem;
+    }
+
     .product-order-details {
         margin: 2rem auto;
         width: 97%;
@@ -187,7 +196,7 @@ body {
     }
 
     .product-order-details table button {
-        padding: 0.5rem 0.6rem;
+        padding: 0.4rem 0.6rem;
         font-size: 0.9rem;
         border: 0.05rem solid #62615f;
         border-radius: 0.2rem;
