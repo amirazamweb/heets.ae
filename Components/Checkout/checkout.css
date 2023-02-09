@@ -340,4 +340,8 @@ input[type="number"] {
         margin-right: 1rem;
     }
 
+    #successful-ordered h1 {
+        text-align: center;
+    }
+
 }
