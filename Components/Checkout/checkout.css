@@ -340,6 +340,10 @@ input[type="number"] {
         margin-right: 1rem;
     }
 
+    #successful-ordered>div {
+        margin: 2vh auto;
+    }
+
     #successful-ordered h1 {
         display: none;
     }
