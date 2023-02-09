@@ -195,6 +195,7 @@ body {
 
     .product-order-details table .count {
         margin: 0 0.4rem;
+        font-size: 0.8rem;
     }
 
     .product-order-details table .price {
