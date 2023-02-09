@@ -81,3 +81,16 @@
 .fa-brands:hover {
     color: aquamarine;
 }
+
+/* media query */
+
+@media only screen and (max-width: 480px) {
+    #opening-time {
+        display: none;
+    }
+
+    .footer {
+        padding: 3rem 1rem 0 2rem;
+        font-size: 0.7rem;
+    }
+}

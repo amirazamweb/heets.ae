@@ -27,8 +27,8 @@ function header() {
     <div class="menu">
         <div class="menu-item"><a href="/">HOME</a></div>
         <div class="menu-item"><a href="#">IQOS 3 Multi</a></div>
-        <div class="menu-item"><a href="#">IQOS Lil Solid</a></div>
-        <div class="menu-item"><a href="#">IQOS ILUMA</a></div>
+        <div class="menu-item removal-item"><a href="#">IQOS Lil Solid</a></div>
+        <div class="menu-item removal-item"><a href="#">IQOS ILUMA</a></div>
         <div class="menu-item"><a href="#">IQOS Heets</a></div>
         <div class="menu-item"><a href="#">IQOS Accessories</a></div>
         <div class="menu-item"><a href="#">FAQ</a></div>

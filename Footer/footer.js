@@ -18,7 +18,7 @@ function footer() {
             <p><a href="#">Terms of Use</a></p>
             <p><a href="#">Contact Us</a></p>
         </div>
-        <div>
+        <div id="opening-time">
             <p class="useful-link-title">Opening Time</p>
             <p class= "footer-non-link">Saturday - Thursday</p>
             <p class= "footer-non-link">8:00 - 21:00</p>
