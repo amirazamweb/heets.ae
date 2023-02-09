@@ -30,7 +30,7 @@ function footer() {
             <p class= "footer-non-link">Email</p>
             <p class= "footer-non-link">sales@heets.ae</p>
             <p class= "footer-non-link">Al Quoz 2, Dubai</p>
-            <p class= "footer-non-link">Emirates</p>
+            <p class= "footer-non-link">UAE</p>
         </div>
     </div>
 
