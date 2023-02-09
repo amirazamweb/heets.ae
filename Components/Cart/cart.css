@@ -155,3 +155,66 @@ body {
 .cart button {
     cursor: pointer;
 }
+
+
+/* media query */
+
+@media only screen and (max-width: 480px) {
+    .product-order-details {
+        margin: 2rem auto;
+        width: 97%;
+    }
+
+    th,
+    td {
+        text-align: center;
+    }
+
+    #th-2 {
+        width: 10%;
+    }
+
+    #th-4 {
+        width: 10%;
+    }
+
+    #th-5 {
+        width: 4%;
+    }
+
+    .product-order-details table button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        border: 0.10rem solid #62615f;
+        border-radius: 0.2rem;
+    }
+
+    .product-order-details table .price {
+        font-weight: 500;
+        font-size: 0.7rem;
+        margin-right: 0.2rem;
+    }
+
+    .total-order-price {
+        font-size: 1.1rem;
+    }
+
+    .btn-container a {
+        padding: 0.8rem 1rem;
+    }
+
+    .btn {
+        padding: 0.8rem 0;
+        font-size: 0.7rem;
+        font-weight: bold;
+        border-radius: 0.3rem;
+    }
+
+    .continue-shopping {
+        border: 2px solid #62615f;
+    }
+
+    #footer {
+        display: none;
+    }
+}

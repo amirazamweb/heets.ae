@@ -84,22 +84,18 @@
         letter-spacing: 0.01rem;
     }
 
-    .header-row1 {
-        justify-content: space-around;
-
-    }
-
     .header-row1 .logo {
         width: 30%;
     }
 
     .header-row1 .logo img {
         width: 100%;
-        margin: 0;
     }
 
     .address-email-cart {
         width: 70%;
+        display: flex;
+        justify-content: end;
     }
 
     .address-email {
