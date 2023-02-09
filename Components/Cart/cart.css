@@ -187,7 +187,7 @@ body {
     }
 
     .product-order-details table button {
-        padding: 0.6rem;
+        padding: 0.5rem 0.6rem;
         font-size: 0.9rem;
         border: 0.05rem solid #62615f;
         border-radius: 0.2rem;
@@ -207,12 +207,17 @@ body {
         font-size: 1.1rem;
     }
 
+    .btn-container {
+        width: 80%;
+        margin: 1.5rem auto;
+    }
+
     .btn-container a {
-        padding: 0.8rem 1rem;
+        padding: 0.6rem 0.7rem;
     }
 
     .btn {
-        padding: 0.8rem 0;
+        padding: 0.6rem 0;
         font-size: 0.7rem;
         font-weight: bold;
         border-radius: 0.3rem;
