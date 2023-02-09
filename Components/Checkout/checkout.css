@@ -332,6 +332,10 @@ input[type="number"] {
         padding: 0.8rem;
     }
 
+    #order-details-container>div .order-info {
+        margin-left: 1rem;
+    }
+
     #order-details-container>div .order-info .qty-span {
         margin-right: 1rem;
     }
