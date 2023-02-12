@@ -5,11 +5,16 @@ let inputData3 = document.querySelectorAll('input[type= "email"]');
 let textAreaData = document.querySelector('textarea');
 let selectedData = document.querySelector('select');
 let checkbox = document.querySelector('input[type="checkbox"]');
+let orderNumber = localStorage.getItem("orderCountKey") || 0;
 
 function dispatchOrder() {
     if (inputData1.value != "" && inputData2.value != "" && inputData3.value != "" && textAreaData.value != "" & selectedData.value != "" && checkbox.checked == true) {
 
+        orderNumber++;
+
+        localStorage.setItem("orderCountKey", orderNumber);
         document.querySelector("#successful-ordered").style.display = "block";
+        document.querySelector("#successful-ordered #p2 span").innerText = orderNumber;
         document.querySelector("#container").style.display = "none";
         setLocalStorage.splice(0);
         localStorage.setItem("orderKey", JSON.stringify(setLocalStorage));
