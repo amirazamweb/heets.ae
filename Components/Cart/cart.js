@@ -104,4 +104,5 @@ function removeOrder(data, index) {
         document.querySelector('.default-message').style.display = "block";
         document.querySelector('.product-order-details').style.display = "none";
     }
+    location.reload();
 }
